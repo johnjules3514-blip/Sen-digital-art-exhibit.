@@ -1,0 +1,91 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+    font-family: "Chewy", system-ui;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #E84A4A;
+}
+
+/* Header Styles */
+header {
+    background-color: #E84A4A;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    text-align: center;
+}
+
+header nav {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.navLeft{
+    padding-left: 30px;
+    text-align: left;
+    position: absolute;
+    font-size: 35px;
+    top:1%;
+}

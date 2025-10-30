@@ -1,0 +1,59 @@
+.layout{
+    max-width: 1920px;
+    position: relative;
+    padding-top: 30px;
+}
+.layout1{
+    padding: 0px;
+}
+
+#title-1{
+    font-size: 180px;
+    line-height: 240px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#subheads {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#img{
+    text-align: center;
+}
+
+
+p{
+    width: 400px;
+    font-size: 20px;
+}
+h2{
+    font-size: 50px;
+}
+
+.pic{
+    width: 600px;
+    position: absolute;
+    transform: translate(-43%, -50%);
+    top: 73%;
+    z-index: 1;
+}
+
+.text1{
+    line-height: 0px;
+    font-size: 170px;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.chips{
+    border-style: solid;
+    border-radius: 16px;
+    background-color: #E84A4A;
+    color: white;
+}

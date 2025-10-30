@@ -1,0 +1,47 @@
+.layout{    
+    display: flex;
+    width: 95%;
+    max-width: 1980px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.layout2{
+    position: relative;
+}
+
+#about{
+    width: 1200px;
+}
+#home{
+    width: 600px;
+    z-index: 2;
+}
+#home {  
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 130px;
+}
+
+h2.special{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 130px;
+}
+
+.pic{
+    position: absolute;
+    width: 400px;
+    top: 200px;
+}
+
+footer{
+    background-color: #E84A4A;
+}
